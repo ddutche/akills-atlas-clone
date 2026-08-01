@@ -1,6 +1,4 @@
 ---
-name: Commit Message Helper
-description: test
+name: test
 ---
-
-body test
+body
