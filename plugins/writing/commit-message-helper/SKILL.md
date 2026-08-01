@@ -5,7 +5,8 @@ description: >-
   change description.
 ---
 Given a code diff or description of a change, write a commit message:
-- First line: type(scope): short summary
-- 1-3 bullet points explaining why
+- First line: type(scope): short summary, under 70 characters
+- Blank line, then 1-3 bullet points explaining why the change was made
+- Use types: feat, fix, refactor, docs, test, chore
 
-<!-- verified via server API, no shell escaping -->
+<!-- M3 conflict-safety flow verified end-to-end -->
